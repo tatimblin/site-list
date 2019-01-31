@@ -10,19 +10,19 @@
   <link rel="icon" href="favicon.png" type="image/svg+xml">
 
   <style>
-        header, h4 {
-            margin: 60px 30px;
+        header, .title {
+            margin: 60px 30px 0;
         }
-        article {
+        section {
             max-width: 1000px;
-            margin: 60px 15px;
+            margin: 0 15px 60px 15px;
             padding: 15px 15px 30px 15px;
         }
-        article.important {
+        section.important {
             background-color: #E1F5FE;
         }
         p {
-            padding-bottom: 15px;
+            padding-bottom: 5px;
         }
         span {
             font-size: 1.5em;
@@ -33,163 +33,170 @@
 <body>
     <header>
         <h1>Tristan Timblin's website</h1>
-        <p>Currently working on other people's sites @ <a href="https://cohere.city/">Cohere.city</a>, see them below.</p>
-        <a href="https://github.com/tatimblin/" target="_blank">Github</a>
-        <a href="https://codepen.io/tatimblin/" target="_blank">Codepen</a>
-        <a href="https://www.linkedin.com/in/tristan-timblin/" target="_blank">Linkedin</a>
-        <br>
+        <p>Front-end developer, focused on motion and interaction design on the web.</p>
+        <p>Currently @ <a href="https://cohere.city" target="_blank">Cohere.city/</a></p>
+        <ul>
+            <li><a href="https://github.com/tatimblin/" target="_blank">Github</a></li>
+            <li><a href="https://codepen.io/tatimblin/" target="_blank">Codepen</a></li>
+            <li><a href="https://www.linkedin.com/in/tristan-timblin/" target="_blank">Linkedin</a></li>
+        </ul>
     </header>
 
 <!--
-<article>
+<section>
     <h1><span>🍱</span> Description</h1>
     <p>Agency | Tech</p>
     <a href="" target="_blank"></a>
-</article>
+</section>
 -->
+    <div class="title">
+        <h2>Chronological Site List</h2>
+        <h4>2018</h4>
+    </div>
 
-    <h4>2018</h4>
+    <section>
+        <h1><span>🖥</span> Cultivate (In Dev)</h1>
+        <p>Cohere | A text based dynamic website builder built with node.js. Cultivate componentize's workflow across client sites, and aims at transitioning our web services into a scalable product.</p>
+        <a href="https://cohere.city/" target="_blank">Company Page</a>
+    </section>
 
-        <article>
-            <h1><span>🖥</span> Cultivate (In Dev)</h1>
-            <p>Cohere | A text based dynamic website builder built with node.js. Cultivate componentize's workflow across client sites, and aims at transitioning our web services into a scalable product.</p>
-            <a href="https://cohere.city/" target="_blank">Company Page</a>
-        </article>
-  
-        <article class="important">
-            <h1><span>👨‍🔬</span> Interactive Labs (Beta)</h1>
-            <p>Self | A collection of front-end demos visitors can browse through, made with Vue.js.</p>
-            <a href="https://timblin-io.netlify.com/" target="_blank">Staging Link</a>
-        </article>
-  
-        <article>
-            <h1><span>🐴</span> Urban Beer Hall</h1>
-            <p>Cohere | Single page Wordpress site pulling data in from parent brand using Wordpress API.</p>
-            <a href="https://thepostphl.com/" target="_blank">https://thepostphl.com/</a>
-        </article>
-  
-        <article>
-            <h1><span>👌🏼</span> Giuseppe & Sons</h1>
-            <p>Cohere | Restaurant page designed by Avery Sohn.</p>
-            <a href="https://giuseppesons.com/" target="_blank">https://giuseppesons.com/</a>
-        </article>
-  
-        <article>
-            <h1><span>🖋</span> Interactive architects design manifesto</h1>
-            <p>Cohere | Lead page we used at conferences to promote Cohere's message to designers and architects. Created with Jekyll and handles user submission with webhooks.</p>
-            <a href="http://design-manifesto.cohere.city/" target="_blank">http://design-manifesto.cohere.city/</a>
-        </article>
+    <section class="important">
+        <h1><span>👨‍🔬</span> Interactive Labs (Beta)</h1>
+        <p>Self | A collection of front-end demos visitors can browse through, made with Vue.js.</p>
+        <a href="https://timblin-io.netlify.com/" target="_blank">Staging Link</a>
+    </section>
 
-        <article class="important">
-            <h1><span>🏬</span> Redevelopment effort in Brewerytown</h1>
-            <p>Cohere | Vue.js application that sells one of the first new developments in the largely underutilized Brewerytown neighborhood. Designed by Randi Bellamy.</p>
-            <a href="https://otto-app.netlify.com/" target="_blank">https://ottobrewerytown.com/</a>
-        </article>
-  
-        <!--<article>
-            <h1><span>🏫</span> University of Pennsylvania Business Services Portfolio</h1>
-            <p>Cohere | UX redesign to help present the universities many business departments more clearly. Final design by Randi Bellamy and Front-end by Mike Medoro</p>
-            <a href="https://xd.adobe.com/view/fda0975c-0923-499d-6f40-0f7699615e9f-8b91/" target="_blank">Wireframes</a>
-            <a href="https://cms.business-services.upenn.edu/" target="_blank">https://cms.business-services.upenn.edu/</a>
-        </article>-->
+    <section>
+        <h1><span>🐴</span> Urban Beer Hall</h1>
+        <p>Cohere | Single page Wordpress site pulling data in from parent brand using Wordpress API.</p>
+        <a href="https://thepostphl.com/" target="_blank">https://thepostphl.com/</a>
+    </section>
 
-        <article>
-            <h1><span>🎹</span> Senior thesis on augmenting classical preformances with 3D using the Microsoft Hololens</h1>
-            <p>Drexel University | Wordpress site</p>
-            <a href="http://symphonyxr.com/" target="_blank">http://symphonyxr.com/</a>
-        </article>
+    <section>
+        <h1><span>👌🏼</span> Giuseppe & Sons</h1>
+        <p>Cohere | Restaurant page designed by Avery Sohn.</p>
+        <a href="https://giuseppesons.com/" target="_blank">https://giuseppesons.com/</a>
+    </section>
 
-        <article>
-            <h1><span>🏭</span> Historic munitions R&D and production campus, redeveloped as industrial loft space</h1>
-            <p>Cohere | Static page built with <a href="http://www.brendanr.us/">Brendan Russo</a></p>
-            <a href="http://arsenalphl.com/" target="_blank">http://arsenalphl.com/</a>
-        </article>
+    <section>
+        <h1><span>🖋</span> Interactive architects design manifesto</h1>
+        <p>Cohere | Lead page we used at conferences to promote Cohere's message to designers and architects. Created with Jekyll and handles user submission with webhooks.</p>
+        <a href="http://design-manifesto.cohere.city/" target="_blank">http://design-manifesto.cohere.city/</a>
+    </section>
 
-        <article>
-            <h1><span>🏬</span> Upenn graduate student living</h1>
-            <p>Cohere | Static one pager</p>
-            <a href="http://www.lunaonpine.com/" target="_blank">http://www.lunaonpine.com/</a>
-        </article>
+    <section class="important">
+        <h1><span>🏬</span> Redevelopment effort in Brewerytown</h1>
+        <p>Cohere | Vue.js application that sells one of the first new developments in the largely underutilized Brewerytown neighborhood. Designed by Randi Bellamy.</p>
+        <a href="https://otto-app.netlify.com/" target="_blank">https://ottobrewerytown.com/</a>
+    </section>
 
-        <article>
-            <h1><span>🏚</span> Urban development portfolio</h1>
-            <p>Cohere | Wordpress site</p>
-            <a href="http://www.metropolitanphilly.com/" target="_blank">http://www.metropolitanphilly.com/</a>
-        </article>
+    <!--<section>
+        <h1><span>🏫</span> University of Pennsylvania Business Services Portfolio</h1>
+        <p>Cohere | UX redesign to help present the universities many business departments more clearly. Final design by Randi Bellamy and Front-end by Mike Medoro</p>
+        <a href="https://xd.adobe.com/view/fda0975c-0923-499d-6f40-0f7699615e9f-8b91/" target="_blank">Wireframes</a>
+        <a href="https://cms.business-services.upenn.edu/" target="_blank">https://cms.business-services.upenn.edu/</a>
+    </section>-->
 
-    <h4>2017</h4>
+    <section>
+        <h1><span>🎹</span> Senior thesis on augmenting classical preformances with 3D using the Microsoft Hololens</h1>
+        <p>Drexel University | Wordpress site</p>
+        <a href="http://symphonyxr.com/" target="_blank">http://symphonyxr.com/</a>
+    </section>
 
-    <article>
+    <section>
+        <h1><span>🏭</span> Historic munitions R&D and production campus, redeveloped as industrial loft space</h1>
+        <p>Cohere | Static page built with <a href="http://www.brendanr.us/">Brendan Russo</a></p>
+        <a href="http://arsenalphl.com/" target="_blank">http://arsenalphl.com/</a>
+    </section>
+
+    <section>
+        <h1><span>🏬</span> Upenn graduate student living</h1>
+        <p>Cohere | Static one pager</p>
+        <a href="http://www.lunaonpine.com/" target="_blank">http://www.lunaonpine.com/</a>
+    </section>
+
+    <section>
+        <h1><span>🏚</span> Urban development portfolio</h1>
+        <p>Cohere | Wordpress site</p>
+        <a href="http://www.metropolitanphilly.com/" target="_blank">http://www.metropolitanphilly.com/</a>
+    </section>
+
+    <div class="title">
+        <h4>2017</h4>
+    </div>
+
+    <section>
         <h1><span>🎮</span> Teaser page for 3D games studio</h1>
         <p>Self | Animated coming soon page</p>
         <a href="http://gamemodeone.com/" target="_blank">http://gamemodeone.com/</a>
-    </article>
+    </section>
 
-    <article>
+    <section>
         <h1><span>🛠</span> Collaborative makerspace for creators</h1>
         <p>Cohere | Wordpress site led by <a href="#">Mike Medoro</a></p>
         <a href="https://nextfab.com/" target="_blank">https://nextfab.com/</a>
-    </article>
+    </section>
 
-    <article>
+    <section>
         <h1><span>📱</span> Friend's upcomming mobile game studio</h1>
         <p>Self | Animated coming soon page</p>
         <a href="http://syclonestudios.com" target="_blank">http://syclonestudios.com</a>
-    </article>
+    </section>
 
-    <article>
+    <section>
         <h1><span>🍱</span> A fine casual version of the amazing <a href="http://www.doubleknotphilly.com/photos-1/" target="_blank">Double Knot</a> restaurant in Philadelphia</h1>
         <p>Custom squarespace (<a href="https://developers.squarespace.com/quick-start">yes, that's a thing</a>) theme</p>
         <a href="https://www.eatyour.fish/" target="_blank">https://www.eatyour.fish/</a>
-    </article>
+    </section>
 
-    <article>
+    <section>
         <h1><span>💎</span> Online store for a boutique jewler</h1>
         <p>Cohere | Shopify</p>
         <a href="https://dandelionjewelry.com/" target="_blank">https://dandelionjewelry.com/</a>
-    </article>
+    </section>
 
-    <article>
+    <section>
         <h1><span>🏗</span> A large apartment complex in the Baltimore area</h1>
         <p>Cohere | A static page while the building is under construction.</p>
         <a href="http://335bala.com/" target="_blank">http://335bala.com/</a>
         <a href="https://dribbble.com/shots/4015448-Residential-Splash-Page" target="_blank">preview.gif</a>
-    </article>
+    </section>
 
-    <article>
+    <section>
         <h1><span>💃</span> Columbian inspired fashion brand</h1>
         <p>Cohere | Wordpress site</p>
         <a href="https://americae.com/" target="_blank">https://americae.com/</a>
         <a href="https://dribbble.com/shots/3799668-featured-posts-from-a-fashion-blog" target="_blank">preview.gif</a>
-    </article>
+    </section>
 
-    <article>
+    <section>
         <h1><span>👩🏻</span> Nonprofit organization empowering people to take action and support equal opportunity efforts.</h1>
         <p>Cohere | Wordpress site led by <a href="http://tylerjordandesign.com/">Tyler Jordan</a></p>
         <a href="https://womensway.org/" target="_blank">https://womensway.org/</a>
-    </article>
+    </section>
 
-    <article class="important">
+    <section class="important">
         <h1><span>💸</span> Economic development campaign for the city of Alexandria, that contributed to winning the 2018 <a href="https://growalx.com/2018/11/amazonhq2-vtinnovationcampus/" target="_blank">Amazon HQ2 bid</a>.</h1>
         <p>Cohere | Wordpress site</p>
         <a href="https://growalx.com/" target="_blank">https://growalx.com/</a>
         <a href="https://imgur.com/a/wQkI9FD" target="_blank">preview.gif</a>
-    </article>
+    </section>
 
-    <br>
-    <h4>2016</h4>
+    <div class="title">
+        <h4>2016</h4>
+    </div>
 
-    <article>
+    <section>
         <h1><span>🔪</span> Mad-lib style murder mystery game</h1>
         <p>Drexel University | Jekyll static generator</p>
         <a href="https://tatimblin.github.io/murder-mystery/" target="_blank">Game</a>
-    </article>
+    </section>
 
-    <article>
+    <section>
         <h1><span>🐶</span> Ecommerce front-end for the countries first animal shelter</h1>
         <p>Drexel University | Jekyll static generator</p>
         <a href="https://tatimblin.github.io/morris-jekyll/" target="_blank">Demo site</a>
-    </article>
+    </section>
 
     <footer>
         View this single html file on <a href="https://github.com/tatimblin/site-list/blob/master/index.html" target="_blank">github</a>.
